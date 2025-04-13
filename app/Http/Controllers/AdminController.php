@@ -20,6 +20,8 @@ class AdminController extends Controller
     {
         $this->adminServices = $adminServices;
     }
-    public function asd(){}
+    public function index(){
+        
+    }
 
 }
