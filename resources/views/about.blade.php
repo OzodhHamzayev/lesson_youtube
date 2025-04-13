@@ -77,7 +77,7 @@
                 </div>
                 <div class="col-lg-5" style="min-height: 400px;">
                     <div class="position-relative h-100 rounded overflow-hidden">
-                        <img class="position-absolute w-100 h-100" src="{{ asset('feature.jpg')}}" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100" src="{{ asset('/assets/img/feature.jpg')}}" style="object-fit: cover;">
                     </div>
                 </div>
             </div>
@@ -104,7 +104,7 @@
                         <div class="team d-flex flex-column text-center rounded overflow-hidden">
                             <div class="position-relative">
                                 <div class="team-img">
-                                    <img class="img-fluid w-100" src="{{ asset('team-1.jpg')}}" alt="">
+                                    <img class="img-fluid w-100" src="{{ asset('assets/img/team-1.jpg')}}" alt="">
                                 </div>
                                 <div class="team-social d-flex flex-column align-items-center justify-content-center bg-primary">
                                     <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-twitter"></i></a>
@@ -120,7 +120,7 @@
                         <div class="team d-flex flex-column text-center rounded overflow-hidden">
                             <div class="position-relative">
                                 <div class="team-img">
-                                    <img class="img-fluid w-100" src="{{ asset('team-2.jpg')}}" alt="">
+                                    <img class="img-fluid w-100" src="{{ asset('assets/img/team-2.jpg')}}" alt="">
                                 </div>
                                 <div class="team-social d-flex flex-column align-items-center justify-content-center bg-primary">
                                     <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-twitter"></i></a>
@@ -136,7 +136,7 @@
                         <div class="team d-flex flex-column text-center rounded overflow-hidden">
                             <div class="position-relative">
                                 <div class="team-img">
-                                    <img class="img-fluid w-100" src="{{ asset('team-3.jpg')}}" alt="">
+                                    <img class="img-fluid w-100" src="{{ asset('assets/img/team-3.jpg')}}" alt="">
                                 </div>
                                 <div class="team-social d-flex flex-column align-items-center justify-content-center bg-primary">
                                     <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-twitter"></i></a>
@@ -152,7 +152,7 @@
                         <div class="team d-flex flex-column text-center rounded overflow-hidden">
                             <div class="position-relative">
                                 <div class="team-img">
-                                    <img class="img-fluid w-100" src="{{ asset('team-4.jpg')}}" alt="">
+                                    <img class="img-fluid w-100" src="{{ asset('assets/img/team-4.jpg')}}" alt="">
                                 </div>
                                 <div class="team-social d-flex flex-column align-items-center justify-content-center bg-primary">
                                     <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-twitter"></i></a>

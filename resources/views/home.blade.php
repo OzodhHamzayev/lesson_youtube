@@ -12,7 +12,7 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="img-fluid" src="{{ asset('img/carousel-1.jpg') }}" alt="Image">
+                    <img class="img-fluid" src="{{ asset('assets/img/carousel-1.jpg') }}" alt="Image">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-5" style="width: 100%; max-width: 900px;">
                             <h5 class="text-primary text-uppercase mb-md-3">Cleaning Services</h5>
@@ -22,7 +22,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="img-fluid" src="{{ asset('img/carousel-2.jpg') }}" alt="Image">
+                    <img class="img-fluid" src="{{ asset('assets/img/carousel-2.jpg') }}" alt="Image">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-5" style="width: 100%; max-width: 900px;">
                             <h5 class="text-primary text-uppercase mb-md-3">Cleaning Services</h5>
@@ -32,7 +32,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="img-fluid" src="{{ asset('img/carousel-3.jpg') }}" alt="Image">
+                    <img class="img-fluid" src="{{ asset('assets/img/carousel-3.jpg') }}" alt="Image">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-5" style="width: 100%; max-width: 900px;">
                             <h5 class="text-primary text-uppercase mb-md-3">Cleaning Services</h5>
@@ -161,7 +161,7 @@
                                 <i class="fa fa-2x fa-hotel"></i>
                             </div>
                             <h5 class="font-weight-bold mb-4 px-4">Home Cleaning</h5>
-                            <img src="{{ asset('img/blog-1.jpg') }}" alt="">
+                            <img src="{{ asset('assets/img/blog-1.jpg') }}" alt="">
                         </div>
                         <div
                             class="d-flex flex-column align-items-center text-center bg-white rounded overflow-hidden pt-4">
@@ -169,7 +169,7 @@
                                 <i class="fa fa-2x fa-city"></i>
                             </div>
                             <h5 class="font-weight-bold mb-4 px-4">Window Cleaning</h5>
-                            <img src="{{ asset('img/blog-3.jpg') }}" alt="">
+                            <img src="{{ asset('assets/img/blog-3.jpg') }}" alt="">
                         </div>
                         <div
                             class="d-flex flex-column align-items-center text-center bg-white rounded overflow-hidden pt-4">
@@ -177,7 +177,7 @@
                                 <i class="fa fa-2x fa-spa"></i>
                             </div>
                             <h5 class="font-weight-bold mb-4 px-4">Carpet Cleaning</h5>
-                            <img src="{{ asset('img/blog-2.jpg') }}" alt="">
+                            <img src="{{ asset('assets/img/blog-2.jpg') }}" alt="">
                         </div>
                     </div>
                 </div>
@@ -214,7 +214,7 @@
                 </div>
                 <div class="col-lg-5" style="min-height: 400px;">
                     <div class="position-relative h-100 rounded overflow-hidden">
-                        <img class="position-absolute w-100 h-100" src="{{ asset('img/feature.jpg') }}"
+                        <img class="position-absolute w-100 h-100" src="{{ asset('assets/img/feature.jpg') }}"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -231,7 +231,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <img class="img-fluid w-100" src="{{ asset('img/portfolio-1.jpg') }}" alt="">
+                            <img class="img-fluid w-100" src="{{ asset('assets/img/portfolio-1.jpg') }}" alt="">
                         </div>
                         <div class="portfolio-text bg-primary">
                             <h4 class="font-weight-bold mb-4">Project Name</h4>
@@ -239,7 +239,7 @@
                                 <a class="btn btn-sm btn-secondary m-1" href="">
                                     <i class="fa fa-link"></i>
                                 </a>
-                                <a class="btn btn-sm btn-secondary m-1" href="{{ asset('img/portfolio-1.jpg') }}"
+                                <a class="btn btn-sm btn-secondary m-1" href="{{ asset('assets/img/portfolio-1.jpg') }}"
                                     data-lightbox="portfolio">
                                     <i class="fa fa-eye"></i>
                                 </a>
@@ -250,7 +250,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <img class="img-fluid w-100" src="{{ asset('img/portfolio-2.jpg') }}" alt="">
+                            <img class="img-fluid w-100" src="{{ asset('assets/img/portfolio-2.jpg') }}" alt="">
                         </div>
                         <div class="portfolio-text bg-primary">
                             <h4 class="font-weight-bold mb-4">Project Name</h4>
@@ -258,7 +258,7 @@
                                 <a class="btn btn-sm btn-secondary m-1" href="">
                                     <i class="fa fa-link"></i>
                                 </a>
-                                <a class="btn btn-sm btn-secondary m-1" href="{{ asset('img/portfolio-2.jpg') }}"
+                                <a class="btn btn-sm btn-secondary m-1" href="{{ asset('assets/img/portfolio-2.jpg') }}"
                                     data-lightbox="portfolio">
                                     <i class="fa fa-eye"></i>
                                 </a>
@@ -269,7 +269,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <img class="img-fluid w-100" src="{{ asset('img/portfolio-3.jpg') }}" alt="">
+                            <img class="img-fluid w-100" src="{{ asset('assets/img/portfolio-3.jpg') }}" alt="">
                         </div>
                         <div class="portfolio-text bg-primary">
                             <h4 class="font-weight-bold mb-4">Project Name</h4>
@@ -277,7 +277,7 @@
                                 <a class="btn btn-sm btn-secondary m-1" href="">
                                     <i class="fa fa-link"></i>
                                 </a>
-                                <a class="btn btn-sm btn-secondary m-1" href="{{ asset('img/portfolio-3.jpg') }}"
+                                <a class="btn btn-sm btn-secondary m-1" href="{{ asset('assets/img/portfolio-3.jpg') }}"
                                     data-lightbox="portfolio">
                                     <i class="fa fa-eye"></i>
                                 </a>
@@ -288,7 +288,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <img class="img-fluid w-100" src="{{ asset('img/portfolio-4.jpg') }}" alt="">
+                            <img class="img-fluid w-100" src="{{ asset('assets/img/portfolio-4.jpg') }}" alt="">
                         </div>
                         <div class="portfolio-text bg-primary">
                             <h4 class="font-weight-bold mb-4">Project Name</h4>
@@ -296,7 +296,7 @@
                                 <a class="btn btn-sm btn-secondary m-1" href="">
                                     <i class="fa fa-link"></i>
                                 </a>
-                                <a class="btn btn-sm btn-secondary m-1" href="{{ asset('img/portfolio-4.jpg') }}"
+                                <a class="btn btn-sm btn-secondary m-1" href="{{ asset('assets/img/portfolio-4.jpg') }}"
                                     data-lightbox="portfolio">
                                     <i class="fa fa-eye"></i>
                                 </a>
@@ -307,7 +307,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <img class="img-fluid w-100" src="{{ asset('img/portfolio-5.jpg') }}" alt="">
+                            <img class="img-fluid w-100" src="{{ asset('assets/img/portfolio-5.jpg') }}" alt="">
                         </div>
                         <div class="portfolio-text bg-primary">
                             <h4 class="font-weight-bold mb-4">Project Name</h4>
@@ -315,7 +315,7 @@
                                 <a class="btn btn-sm btn-secondary m-1" href="">
                                     <i class="fa fa-link"></i>
                                 </a>
-                                <a class="btn btn-sm btn-secondary m-1" href="{{ asset('img/portfolio-5.jpg') }}"
+                                <a class="btn btn-sm btn-secondary m-1" href="{{ asset('assets/img/portfolio-5.jpg') }}"
                                     data-lightbox="portfolio">
                                     <i class="fa fa-eye"></i>
                                 </a>
@@ -326,7 +326,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img">
-                            <img class="img-fluid w-100" src="{{ asset('img/portfolio-6.jpg') }}" alt="">
+                            <img class="img-fluid w-100" src="{{ asset('assets/img/portfolio-6.jpg') }}" alt="">
                         </div>
                         <div class="portfolio-text bg-primary">
                             <h4 class="font-weight-bold mb-4">Project Name</h4>
@@ -334,7 +334,7 @@
                                 <a class="btn btn-sm btn-secondary m-1" href="">
                                     <i class="fa fa-link"></i>
                                 </a>
-                                <a class="btn btn-sm btn-secondary m-1" href="{{ asset('img/portfolio-6.jpg') }}"
+                                <a class="btn btn-sm btn-secondary m-1" href="{{ asset('assets/img/portfolio-6.jpg') }}"
                                     data-lightbox="portfolio">
                                     <i class="fa fa-eye"></i>
                                 </a>
@@ -368,7 +368,7 @@
                         <div class="team d-flex flex-column text-center rounded overflow-hidden">
                             <div class="position-relative">
                                 <div class="team-img">
-                                    <img class="img-fluid w-100" src="{{ asset('img/team-1.jpg') }}" alt="">
+                                    <img class="img-fluid w-100" src="{{ asset('assets/img/team-1.jpg') }}" alt="">
                                 </div>
                                 <div
                                     class="team-social d-flex flex-column align-items-center justify-content-center bg-primary">
@@ -388,7 +388,7 @@
                         <div class="team d-flex flex-column text-center rounded overflow-hidden">
                             <div class="position-relative">
                                 <div class="team-img">
-                                    <img class="img-fluid w-100" src="{{ asset('img/team-2.jpg') }}" alt="">
+                                    <img class="img-fluid w-100" src="{{ asset('assets/img/team-2.jpg') }}" alt="">
                                 </div>
                                 <div
                                     class="team-social d-flex flex-column align-items-center justify-content-center bg-primary">
@@ -408,7 +408,7 @@
                         <div class="team d-flex flex-column text-center rounded overflow-hidden">
                             <div class="position-relative">
                                 <div class="team-img">
-                                    <img class="img-fluid w-100" src="{{ asset('img/team-3.jpg') }}" alt="">
+                                    <img class="img-fluid w-100" src="{{ asset('assets/img/team-3.jpg') }}" alt="">
                                 </div>
                                 <div
                                     class="team-social d-flex flex-column align-items-center justify-content-center bg-primary">
@@ -428,7 +428,7 @@
                         <div class="team d-flex flex-column text-center rounded overflow-hidden">
                             <div class="position-relative">
                                 <div class="team-img">
-                                    <img class="img-fluid w-100" src="{{ asset('img/team-4.jpg') }}" alt="">
+                                    <img class="img-fluid w-100" src="{{ asset('assets/img/team-4.jpg') }}" alt="">
                                 </div>
                                 <div
                                     class="team-social d-flex flex-column align-items-center justify-content-center bg-primary">
@@ -463,7 +463,7 @@
                     <div class="owl-carousel testimonial-carousel position-relative">
                         <div class="d-flex flex-column text-white">
                             <div class="d-flex align-items-center mb-3">
-                                <img class="img-fluid" src="{{ asset('img/testimonial-1.jpg') }}" alt="">
+                                <img class="img-fluid" src="{{ asset('assets/img/testimonial-1.jpg') }}" alt="">
                                 <div class="ml-3">
                                     <h5 class="text-primary">Client Name</h5>
                                     <i>Profession</i>
@@ -475,7 +475,7 @@
                         </div>
                         <div class="d-flex flex-column text-white">
                             <div class="d-flex align-items-center mb-3">
-                                <img class="img-fluid" src="{{ asset('img/testimonial-2.jpg') }}" alt="">
+                                <img class="img-fluid" src="{{ asset('assets/img/testimonial-2.jpg') }}" alt="">
                                 <div class="ml-3">
                                     <h5 class="text-primary">Client Name</h5>
                                     <i>Profession</i>
@@ -487,7 +487,7 @@
                         </div>
                         <div class="d-flex flex-column text-white">
                             <div class="d-flex align-items-center mb-3">
-                                <img class="img-fluid" src="{{ asset('img/testimonial-3.jpg') }}" alt="">
+                                <img class="img-fluid" src="{{ asset('assets/img/testimonial-3.jpg') }}" alt="">
                                 <div class="ml-3">
                                     <h5 class="text-primary">Client Name</h5>
                                     <i>Profession</i>
@@ -501,7 +501,7 @@
                 </div>
                 <div class="col-lg-5" style="min-height: 400px;">
                     <div class="position-relative h-100 rounded overflow-hidden">
-                        <img class="position-absolute w-100 h-100" src="{{ asset('img/testimonial.jpg') }}"
+                        <img class="position-absolute w-100 h-100" src="{{ asset('assets/img/testimonial.jpg') }}"
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -527,7 +527,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 mb-5">
                     <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100" src="{{ asset('img/blog-1.jpg') }}" alt="">
+                        <img class="img-fluid rounded w-100" src="{{ asset('assets/img/blog-1.jpg') }}" alt="">
                         <div class="blog-date">
                             <h4 class="font-weight-bold mb-n1">01</h4>
                             <small class="text-white text-uppercase">Jan</small>
@@ -544,7 +544,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mb-5">
                     <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100" src="{{ asset('img/blog-2.jpg') }}" alt="">
+                        <img class="img-fluid rounded w-100" src="{{ asset('assets/img/blog-2.jpg') }}" alt="">
                         <div class="blog-date">
                             <h4 class="font-weight-bold mb-n1">01</h4>
                             <small class="text-white text-uppercase">Jan</small>
@@ -561,7 +561,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mb-5">
                     <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100" src="{{ asset('img/blog-3.jpg') }}" alt="">
+                        <img class="img-fluid rounded w-100" src="{{ asset('assets/img/blog-3.jpg') }}" alt="">
                         <div class="blog-date">
                             <h4 class="font-weight-bold mb-n1">01</h4>
                             <small class="text-white text-uppercase">Jan</small>

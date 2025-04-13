@@ -136,7 +136,7 @@
 
                 <div class="col-lg-4 mt-5 mt-lg-0">
                     <div class="d-flex flex-column text-center bg-secondary rounded mb-5 py-5 px-4">
-                        <img src="{{ asset('assets/"img/user.jpg') }} class="img-fluid rounded-circle mx-auto mb-3" style="width: 100px;">
+                        <img src="{{ asset('assets/img/user.jpg') }}" class="img-fluid rounded-circle mx-auto mb-3" style="width: 100px;">
                         <h3 class="text-white mb-3">John Doe</h3>
                         <p class="text-white m-0">Conset elitr erat vero dolor ipsum et diam, eos dolor lorem ipsum,
                             ipsum
@@ -178,12 +178,12 @@
                         </ul>
                     </div>
                     <div class="mb-5">
-                        <img src="{{ asset('assets/"img/blog-1.jpg') }} alt="" class="img-fluid rounded">
+                        <img src="{{ asset('assets/img/blog-1.jpg') }}" alt="" class="img-fluid rounded">
                     </div>
                     <div class="mb-5">
                         <h3 class="mb-4 section-title">Recent Post</h3>
                         <div class="d-flex align-items-center border-bottom mb-3 pb-3">
-                            <img class="img-fluid rounded" src="{{ asset('assets/"img/blog-1.jpg') }} style="width: 80px; height: 80px; object-fit: cover;" alt="">
+                            <img class="img-fluid rounded" src="{{ asset('assets/img/blog-1.jpg') }}" style="width: 80px; height: 80px; object-fit: cover;" alt="">
                             <div class="d-flex flex-column pl-3">
                                 <a class="text-dark mb-2" href="">Elitr diam amet sit elitr magna ipsum ipsum dolor</a>
                                 <div class="d-flex">
@@ -194,7 +194,7 @@
                             </div>
                         </div>
                         <div class="d-flex align-items-center border-bottom mb-3 pb-3">
-                            <img class="img-fluid rounded" src="{{ asset('assets/"img/blog-2.jpg') }} style="width: 80px; height: 80px; object-fit: cover;" alt="">
+                            <img class="img-fluid rounded" src="{{ asset('assets/img/blog-2.jpg') }}" style="width: 80px; height: 80px; object-fit: cover;" alt="">
                             <div class="d-flex flex-column pl-3">
                                 <a class="text-dark mb-2" href="">Elitr diam amet sit elitr magna ipsum ipsum dolor</a>
                                 <div class="d-flex">
@@ -205,7 +205,7 @@
                             </div>
                         </div>
                         <div class="d-flex align-items-center border-bottom mb-3 pb-3">
-                            <img class="img-fluid rounded" src="{{ asset('assets/"img/blog-3.jpg') }} style="width: 80px; height: 80px; object-fit: cover;" alt="">
+                            <img class="img-fluid rounded" src="{{ asset('assets/img/blog-3.jpg') }}" style="width: 80px; height: 80px; object-fit: cover;" alt="">
                             <div class="d-flex flex-column pl-3">
                                 <a class="text-dark mb-2" href="">Elitr diam amet sit elitr magna ipsum ipsum dolor</a>
                                 <div class="d-flex">
@@ -216,7 +216,7 @@
                             </div>
                         </div>
                         <div class="d-flex align-items-center border-bottom mb-3 pb-3">
-                            <img class="img-fluid rounded" src="{{ asset('assets/"img/blog-1.jpg') }} style="width: 80px; height: 80px; object-fit: cover;" alt="">
+                            <img class="img-fluid rounded" src="{{ asset('assets/img/blog-1.jpg') }}" style="width: 80px; height: 80px; object-fit: cover;" alt="">
                             <div class="d-flex flex-column pl-3">
                                 <a class="text-dark mb-2" href="">Elitr diam amet sit elitr magna ipsum ipsum dolor</a>
                                 <div class="d-flex">
@@ -227,7 +227,7 @@
                             </div>
                         </div>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid rounded" src="{{ asset('assets/"img/blog-2.jpg') }} style="width: 80px; height: 80px; object-fit: cover;" alt="">
+                            <img class="img-fluid rounded" src="{{ asset('assets/img/blog-2.jpg') }}" style="width: 80px; height: 80px; object-fit: cover;" alt="">
                             <div class="d-flex flex-column pl-3">
                                 <a class="text-dark mb-2" href="">Elitr diam amet sit elitr magna ipsum ipsum dolor</a>
                                 <div class="d-flex">
@@ -239,7 +239,7 @@
                         </div>
                     </div>
                     <div class="mb-5">
-                        <img src="{{ asset('assets/"img/blog-2.jpg') }} alt="" class="img-fluid rounded">
+                        <img src="{{ asset('assets/img/blog-2.jpg') }}" alt="" class="img-fluid rounded">
                     </div>
                     <div class="mb-5">
                         <h3 class="mb-4 section-title">Tag Cloud</h3>
@@ -253,7 +253,7 @@
                         </div>
                     </div>
                     <div class="mb-5">
-                        <img src="{{ asset('assets/"img/blog-3.jpg') }} alt="" class="img-fluid rounded">
+                        <img src="{{ asset('assets/img/blog-3.jpg') }}" alt="" class="img-fluid rounded">
                     </div>
                     <div>
                         <h3 class="mb-4 section-title">Plain Text</h3>
