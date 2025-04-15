@@ -2,26 +2,27 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\AdminLoginRequest;
+use App\Models\User;
 use App\Services\Admin\AdminServices;
+use Auth;
 use Illuminate\Http\Request;
 
 class AdminController extends Controller
 {
 
-    /**
-     * @var \App\Services\Admin\AdminServices
-     */
-    protected $adminServices;
-
-    /**
-     * @param \App\Services\Admin\AdminServices $adminServices
-     */
-    public function __construct(AdminServices $adminServices)
-    {
-        $this->adminServices = $adminServices;
+    public function login(){
+        return view('admin.login');
     }
-    public function index(){
-        
+    public function authLogin(AdminLoginRequest $request){
+        $validated = $request->validated();
+            if(Auth::attempt(['password' => $validated['password'], 'email' => $validated['email']])){
+               return redirect()->route('home'); 
+            }
+        else{
+            return redirect()->route('login')->withErrors([
+                'email' => 'Email yoki Parol xato'
+            ]);
+        }
     }
-
 }

@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>@yield('title', 'clean')</title>
 </head>
 <body>
 
@@ -17,17 +16,17 @@
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="/https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="/https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
 </head>
 <body>
     <!-- Header Start -->
@@ -43,7 +42,7 @@
                     <div class="col-lg-7 text-left text-white">
                         <div class="h-100 d-inline-flex align-items-center border-right border-primary py-2 px-3">
                             <i class="fa fa-envelope text-primary mr-2"></i>
-                            <small>info@example.com</small>
+                            {{-- <small>{{ $contact->email }}</small> --}}
                         </div>
                         <div class="h-100 d-inline-flex align-items-center py-2 px-2">
                             <i class="fa fa-phone-alt text-primary mr-2"></i>
@@ -80,12 +79,13 @@
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
                             <a href="{{ route('home') }}" class="nav-item nav-link">Home</a>
-                            <a href="{{ route('about') }}" class="nav-item nav-link">About</a>
-                            <a href="{{ route('service') }}" class="nav-item nav-link">Service</a>
+                            <a href="{{ route('about.index') }}" class="nav-item nav-link">About</a>
+                            <a href="{{ route('service.index') }}" class="nav-item nav-link">Service</a>
+                            {{-- <a href="{{ route('project.index') }}" class="nav-item nav-link">Project</a> --}}
 
-                            <a href="{{ route('contact') }}" class="nav-item nav-link active">Contact</a>
+                            <a href="{{ route('contact.index') }}" class="nav-item nav-link active">Contact</a>
                             <div class="nav-item dropdown">
-                                <a href="{{ route('page') }}" class="nav-link dropdown-toggle" data-toggle="dropdown">Page</a>
+                                <a href="{{ route('page.index') }}" class="nav-link dropdown-toggle" data-toggle="dropdown">Page</a>
                                 <div class="dropdown-menu rounded-0 m-0">
                                     <a href="blog.html" class="dropdown-item">Latest Blog</a>
                                     <a href="single.html" class="dropdown-item">Blog Detail</a>
@@ -204,21 +204,21 @@
 
 
 <!-- JavaScript Libraries -->
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-<script src="lib/easing/easing.min.js"></script>
-<script src="lib/waypoints/waypoints.min.js"></script>
-<script src="lib/counterup/counterup.min.js"></script>
-<script src="lib/owlcarousel/owl.carousel.min.js"></script>
-<script src="lib/isotope/isotope.pkgd.min.js"></script>
-<script src="lib/lightbox/js/lightbox.min.js"></script>
+<script src="/https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="/https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+<script src="/lib/easing/easing.min.js"></script>
+<script src="/lib/waypoints/waypoints.min.js"></script>
+<script src="/lib/counterup/counterup.min.js"></script>
+<script src="/lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="/lib/isotope/isotope.pkgd.min.js"></script>
+<script src="/lib/lightbox/js/lightbox.min.js"></script>
 
 <!-- Contact Javascript File -->
-<script src="mail/jqBootstrapValidation.min.js"></script>
-<script src="mail/contact.js"></script>
+<script src="/mail/jqBootstrapValidation.min.js"></script>
+<script src="/mail/contact.js"></script>
 
 <!-- Template Javascript -->
-<script src="js/main.js"></script>
+<script src="/js/main.js"></script>
 </body>
 
 </html>

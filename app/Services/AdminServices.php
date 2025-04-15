@@ -1,6 +1,8 @@
 <?php
 
-namespace App\Services\Admin;
+namespace App\Services;
+
+use App\Models\Service;
 
 
 
@@ -12,8 +14,7 @@ class AdminServices
     public function index(): array
     {
         return [
-           
+           'service' => Service::count(),
         ];
     }
-
 }

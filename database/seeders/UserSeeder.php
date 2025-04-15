@@ -16,10 +16,10 @@ class UserSeeder extends Seeder
     {
 
         User::query()->create([
-            'login' => 'admin',
+            'email' => 'admin@clean.uz',
             'name' => 'admin',
             'remember_token' => Str::random(10),
-            'role' => fake()->numberBetween(0, 2, ),
+            'role' => 3,
             'password' => bcrypt('password'),
             'phone' => 974672227,
 

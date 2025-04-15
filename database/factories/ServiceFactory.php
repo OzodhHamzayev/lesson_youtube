@@ -17,7 +17,16 @@ class ServiceFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            'name' => fake()->randomElement
+            (
+                [ "Office Cleaning", "House Cleaning", "Carpet Cleaning", "Window Cleaning"]
+            ),
+            'description' => fake()->text(199),
+            'duration' => fake()->numberBetween(1, 10),
+            'price' => fake()->numberBetween(100000, 1000000),
+            'is_active' => fake()->boolean(),
+
+
         ];
     }
 }

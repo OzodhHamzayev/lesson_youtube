@@ -5,11 +5,13 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Service extends Model
+class Employees extends Model
 {
-    /** @use HasFactory<\Database\Factories\ServiceFactory> */
+    /** @use HasFactory<\Database\Factories\EmployeesFactory> */
     use HasFactory;
-
     protected $guarded = ['id'];
-    
+
+    // protected  $employees;
+
+ 
 }

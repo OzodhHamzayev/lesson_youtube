@@ -2,12 +2,13 @@
 
 namespace Database\Factories;
 
+use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Contact>
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Comment>
  */
-class ContactFactory extends Factory
+class CommentFactory extends Factory
 {
     /**
      * Define the model's default state.
@@ -16,8 +17,10 @@ class ContactFactory extends Factory
      */
     public function definition(): array
     {
+        $user = User::query()->inRandomOrder()->first();
         return [
-            //
+            'content' => fake()->text(),
+            'user_id' => $user->id,
         ];
     }
 }

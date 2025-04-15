@@ -74,13 +74,14 @@
 </head>
 <body>
     <div class="container">
-        <form action="#" method="post">
+        <form action="{{ Route('admin.login') }}" method="post">
+            @csrf
             <div class="title">Login</div>
             <div class="input-box">
-                <input type="text" placeholder="Enter Your Email" required>
+                <input type="text" name="email" placeholder="Enter Your Email" required>
             </div>
             <div class="input-box">
-                <input type="password" placeholder="Enter Your Password" required>
+                <input type="password" name="password" placeholder="Enter Your Password" required>
             </div>
             <div class="input-box">
                 <input type="submit" value="Login">

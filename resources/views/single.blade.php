@@ -19,7 +19,7 @@
                     </div>
 
                     <div class="mb-5">
-                        <img class="img-fluid rounded w-100 mb-4" src="{{ asset('img/carousel-1.jpg') }}" alt="Image">
+                        <img class="img-fluid rounded w-100 mb-4" src="{{ asset('assets/img/carousel-1.jpg') }}" alt="Image">
                         <p>Sadipscing labore amet rebum est et justo gubergren. Et eirmod ipsum sit diam ut magna lorem.
                             Nonumy vero labore lorem sanctus rebum et lorem magna kasd, stet amet magna accusam
                             consetetur
@@ -35,7 +35,7 @@
                             no
                             diam sit. Dolor erat justo dolore sit invidunt.</p>
                         <h2 class="mb-4">Est dolor lorem et ea</h2>
-                        <img class="img-fluid rounded w-50 float-left mr-4 mb-3" src="{{ asset('img/blog-1.jpg') }} alt="Image">
+                        <img class="img-fluid rounded w-50 float-left mr-4 mb-3" src="{{ asset('assets/img/blog-1.jpg') }} alt="Image">
                         <p>Diam dolor est labore duo invidunt ipsum clita et, sed et lorem voluptua tempor invidunt at
                             est
                             sanctus sanctus. Clita dolores sit kasd diam takimata justo diam lorem sed. Magna amet sed
@@ -56,7 +56,7 @@
                             eos
                             magna, justo gubergren labore sit voluptua eos.</p>
                         <h3 class="mb-4">Est dolor lorem et ea</h3>
-                        <img class="img-fluid rounded w-50 float-right ml-4 mb-3" src="{{ asset('img/blog-2.jpg') }} alt="Image">
+                        <img class="img-fluid rounded w-50 float-right ml-4 mb-3" src="{{ asset('assets/img/blog-2.jpg') }} alt="Image">
                         <p>Diam dolor est labore duo invidunt ipsum clita et, sed et lorem voluptua tempor invidunt at
                             est
                             sanctus sanctus. Clita dolores sit kasd diam takimata justo diam lorem sed. Magna amet sed
@@ -79,7 +79,7 @@
                     <div class="mb-5">
                         <h3 class="mb-4 section-title">3 Comments</h3>
                         <div class="media mb-4">
-                            <img src="{{ asset('img/user.jpg') }}" alt="Image" class="img-fluid rounded-circle mr-3 mt-1" style="width: 45px;">
+                            <img src="{{ asset('assets/img/user.jpg') }}" alt="Image" class="img-fluid rounded-circle mr-3 mt-1" style="width: 45px;">
                             <div class="media-body">
                                 <h6>John Doe <small><i>01 Jan 2045 at 12:00pm</i></small></h6>
                                 <p>Diam amet duo labore stet elitr ea clita ipsum, tempor labore accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed sed eirmod ipsum clita, at tempor amet ipsum diam tempor sit.</p>
@@ -87,13 +87,13 @@
                             </div>
                         </div>
                         <div class="media mb-4">
-                            <img src="{{ asset('img/user.jpg') }}" alt="Image" class="img-fluid rounded-circle mr-3 mt-1" style="width: 45px;">
+                            <img src="{{ asset('assets/img/user.jpg') }}" alt="Image" class="img-fluid rounded-circle mr-3 mt-1" style="width: 45px;">
                             <div class="media-body">
                                 <h6>John Doe <small><i>01 Jan 2045 at 12:00pm</i></small></h6>
                                 <p>Diam amet duo labore stet elitr ea clita ipsum, tempor labore accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed sed eirmod ipsum clita, at tempor amet ipsum diam tempor sit.</p>
                                 <button class="btn btn-sm btn-light">Reply</button>
                                 <div class="media mt-4">
-                                    <img src="{{ asset('img/user.jpg') }}" alt="Image" class="img-fluid rounded-circle mr-3 mt-1"
+                                    <img src="{{ asset('assets/img/user.jpg') }}" alt="Image" class="img-fluid rounded-circle mr-3 mt-1"
                                         style="width: 45px;">
                                     <div class="media-body">
                                         <h6>John Doe <small><i>01 Jan 2045 at 12:00pm</i></small></h6>

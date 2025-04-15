@@ -2,20 +2,45 @@
 
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\CommentController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\EmployeesController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('about/employee/show/{employees:slug}', [AboutController::class, 'employeeShow'])->name('about.employee.show');
+Route::get('about/service/show/{id}', [AboutController::class, 'serviceShow'])->name('about.service.show');
 
-Route::get('about', [AboutController::class, 'index'])->name('about');
-Route::get('contact', [ContactController::class, 'index'])->name('contact');
-Route::get('home', [HomeController::class, 'index'])->name('home');
-Route::get('page', [PageController::class, 'index'])->name('page');
-Route::get('service', [ServiceController::class, 'index'])->name('service');
-Route::get('login', [AdminController::class, 'pageLogin'])->name('login');
+
+
+
+Route::resource('service', ServiceController::class);
+Route::resource('about', AboutController::class);
+Route::resource('contact', ContactController::class);
+Route::resource('page', PageController::class);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Route::get('login', [AdminController::class, 'login'])
+    ->name('login');
+
+Route::post('admin/login', [AdminController::class, 'authLogin'])
+    ->name('admin.login');
